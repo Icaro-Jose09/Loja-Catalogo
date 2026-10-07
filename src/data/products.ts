@@ -41,4 +41,5 @@ export const products: Product[] = [
     stock: 3,
     active: true,
   },
+
 ]

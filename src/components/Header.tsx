@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { ShoppingCart } from 'lucide-react'
 
 type HeaderProps = {
@@ -16,7 +17,7 @@ return (
         </div>
     </div>
 
-    <button className="cart-button" type="button" aria-label="Abrir carrinho">
+    <Link to="/carrinho" className="cart-button" aria-label="Abrir carrinho">
         <ShoppingCart size={20} />
 
         {cartItemsCount > 0 && (
@@ -24,7 +25,7 @@ return (
             {cartItemsCount}
         </span>
         )}
-    </button>
+    </Link>
     </header>
 )
 }

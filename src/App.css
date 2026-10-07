@@ -339,8 +339,9 @@
   .navigation-item {
     text-decoration: none;
   }
+}
 
-  .products-page {
+.products-page {
   padding-bottom: 20px;
 }
 
@@ -852,6 +853,4 @@
   .products-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
-}
-
 }

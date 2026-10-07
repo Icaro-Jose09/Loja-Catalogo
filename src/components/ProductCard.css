@@ -1,0 +1,14 @@
+/* Fica entre o nome e o preço; a margem negativa compensa o espaço do h2 */
+.product-stock {
+    margin: -8px 0 12px;
+  
+    color: #888888;
+  
+    font-size: 11px;
+    font-weight: 500;
+  }
+  
+  .product-stock.low {
+    color: #b26a00;
+    font-weight: 650;
+  }
